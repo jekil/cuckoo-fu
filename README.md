@@ -3,6 +3,31 @@ cuckoo-fu
 
 Kung-fu scripts and add-on for Cuckoo Sandbox. Have fun and keep hacking!
 
+Modules
+=======
+
+Reporting / dogeon
+------------------
+
+Adds reporting in DOGEON format (see http://dogeon.org/).
+ 
+How to install:
+
+Setup requirements with:
+
+```
+pip install dogeon
+```
+
+Copy this file in reporting modules folder, in /modules/reporting. Enable the module
+Adding the following lines to reporting.conf, in /conf/reporting.conf:
+
+```
+[dogeon]
+enabled = yes
+```
+
+Run cuckoo and use doge power with care.
 
 Credits
 =======
